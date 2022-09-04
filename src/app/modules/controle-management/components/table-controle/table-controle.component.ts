@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Control } from '@app/shared/models/control.model';
+import { Intervenant } from '@app/shared/models/intervenant.model';
 
 @Component({
   selector: 'app-table-controle',
@@ -13,9 +15,16 @@ export class TableControleComponent implements OnInit {
     'chambre',
     'nbrVacations',
   ];
-  @Input() dataSource: any;
+  @Input() dataSource: Control[];
 
   constructor() {}
 
   ngOnInit(): void {}
+
+  getNbreVacations(intervenants: Intervenant[]): number {
+    const nbreVacations: number[] = intervenants.map(i => i.vacations_number);
+    const initValue = 0;
+    return nbreVacations.reduce((previousValue, currentValue) => previousValue + currentValue, initValue);
+  }
+  
 }
