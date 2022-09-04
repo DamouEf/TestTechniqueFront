@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ControlService {
 
-  public controlUrl = '/api/v1/controls/';
+  public controlUrl = '/api/v1/controls/?chambre=1';
 
   constructor(private httpClient: HttpClient) { }
 
