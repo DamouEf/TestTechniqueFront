@@ -1,0 +1,9 @@
+{
+    "/": {
+      "target": "http://localhost:12000/",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  
