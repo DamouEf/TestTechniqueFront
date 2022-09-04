@@ -1,0 +1,94 @@
+{
+  "controles": [
+    {
+      "id": 1,
+      "intitule": "Le grand port maritime",
+      "type": "Gestion",
+      "chambre_id": 1,
+      "intervenants": [
+        {
+          "id": 1,
+          "role": "Expert",
+          "civilite": "Monsieur",
+          "nom": "quessy",
+          "prenom": "Gilbert",
+          "nombre_vacations": 25
+        },
+        {
+          "id": 2,
+          "role": "Rapporteur",
+          "civilite": "Madame",
+          "nom": "douffet",
+          "prenom": "Matilda",
+          "nombre_vacations": 25
+        },
+        {
+          "id": 3,
+          "role": "Expert",
+          "civilite": "Madame",
+          "nom": "grondin",
+          "prenom": "Cendrillon",
+          "nombre_vacations": 25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "intitule": "Le comité social et économique de la SNCF (CSE SNCF)",
+      "type": "Juridictionnel",
+      "chambre_id": 1,
+      "intervenants": [
+        {
+          "id": 1,
+          "role": "Vérificateur",
+          "civilite": "Madame",
+          "nom": "Chauvin",
+          "prenom": "Patrice",
+          "nombre_vacations": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "intitule": "Agence de l'eau ADOUR GARONNE - Comptes",
+      "type": "Certification",
+      "chambre_id": 1,
+      "intervenants": [
+        {
+          "id": 1,
+          "role": "Réviseur",
+          "civilite": "Monsieur",
+          "nom": "Desrosiers",
+          "prenom": "Matthieu",
+          "nombre_vacations": 11
+        }
+      ]
+    }
+  ],
+  "chambres": [
+    {
+      "id": 1,
+      "libelle_chambre": "Première chambre"
+    },
+    {
+      "id": 2,
+      "libelle_chambre": "Deuxième chambre"
+    },
+    {
+      "id": 3,
+      "libelle_chambre": "Troisième chambre"
+    },
+    {
+      "id": 4,
+      "libelle_chambre": "Quatrième chambre"
+    },
+    {
+      "id": 5,
+      "libelle_chambre": "Cinquième chambre"
+    },
+    {
+      "id": 6,
+      "libelle_chambre": "Sixième chambre"
+    }
+  ]
+}
